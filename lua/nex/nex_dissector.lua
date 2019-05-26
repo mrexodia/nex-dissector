@@ -9,6 +9,7 @@ local prudp_proto
 local SECURE_KEYS = {}
 local CONNECTIONS = {}
 local dec_packets = {}
+local dumpfile = nil
 
 function find_connection(pinfo)
 	a = tostring(pinfo.src) .. "-" .. tostring(pinfo.src_port) .. "-" .. tostring(pinfo.dst) .. "-" .. tostring(pinfo.dst_port)
@@ -342,6 +343,14 @@ function nex_proto.dissector(buf, pinfo, tree)
 		return
 	end
 
+	if os.getenv("WIRESHARK_NOLUA") ~= nil then
+		if dumpfile == nil then
+			dumpfile = io.open("nex.bin", "w")
+		end
+		local raw = payload:bytes():tohex()
+		dumpfile:write(raw)
+	end
+
 	local subtreeitem = tree:add(nex_proto, buf)
 	subtreeitem:add(F.raw_payload, payload)
 
@@ -368,8 +377,10 @@ function nex_proto.dissector(buf, pinfo, tree)
 			local tvb = payload(0xd)
 			local t = subtreeitem:add(F.payload, tvb)
 
-			local conn, conn_id = find_connection(pinfo)
-			dissect_req(conn, t, tvb, pkt_proto_id, pkt_method_id)
+			if pkt_proto_id ~= 0x73 then
+				local conn, conn_id = find_connection(pinfo)
+				dissect_req(conn, t, tvb, pkt_proto_id, pkt_method_id)
+			end
 		end
 
 		local proto_name, method_name = resolve(pkt_proto_id, pkt_method_id)
@@ -387,8 +398,10 @@ function nex_proto.dissector(buf, pinfo, tree)
 			if payload:len() > 0xe then
 				local tvb = payload(0xe)
 				local t = subtreeitem:add(F.payload, tvb)
-				local conn, conn_id = find_connection(pinfo)
-				dissect_resp(conn, t, tvb, pkt_proto_id, pkt_method_id)
+				if pkt_proto_id ~= 0x73 then
+					local conn, conn_id = find_connection(pinfo)
+					dissect_resp(conn, t, tvb, pkt_proto_id, pkt_method_id)
+				end
 			end
 
 			local proto_name, method_name = resolve(pkt_proto_id, pkt_method_id)
