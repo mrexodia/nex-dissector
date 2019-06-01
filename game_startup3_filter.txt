@@ -1,0 +1,4923 @@
+no lua plugins!
+Could not connect to localhost:8172: connection refused
+Frame 1: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x00
+    Packet signature: 0x00000000
+    Sequence number: 0x0000
+    Connection signature: 0x00000000
+    Checksum: 0x97
+
+Frame 2: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x00
+    Packet signature: 0x00000000
+    Sequence number: 0x0000
+    Connection signature: 0x00000000
+    Checksum: 0x97
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.235.135, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60000, Dst Port: 40041
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Packet signature: 0x00000000
+    Sequence number: 0x0000
+    Connection signature: 0x6610e4ea
+    Packet size: 0x0000
+    Checksum: 0x2c
+
+Frame 4: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x6610e4ea
+    Sequence number: 0x0001
+    Connection signature: 0xce580652
+    Checksum: 0x81
+
+Frame 5: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x6610e4ea
+    Sequence number: 0x0001
+    Connection signature: 0xce580652
+    Checksum: 0x81
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.235.135, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60000, Dst Port: 40041
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x52
+    Packet signature: 0xce580652
+    Sequence number: 0x0001
+    Connection signature: 0x00000000
+    Packet size: 0x0000
+    Checksum: 0xbb
+
+Frame 7: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x6f04a5f8
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Payload: 198744db99fe2c5005a361fd2a1df280c862d3c5a3619128…
+    Checksum: 0x41
+NEX
+    Decrypted PRUDP payload: 160000008a01000000010000000b00313734353034373334…
+    Big ass size: 0x00000016
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000001
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 0b003137343530343733343300
+        strUserName length (String): 11
+        strUserName data (String): 1745047343
+
+Frame 8: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x6f04a5f8
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Payload: 198744db99fe2c5005a361fd2a1df280c862d3c5a3619128…
+    Checksum: 0x41
+NEX
+    Decrypted PRUDP payload: 160000008a01000000010000000b00313734353034373334…
+    Big ass size: 0x00000016
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000001
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 0b003137343530343733343300
+        strUserName length (String): 11
+        strUserName data (String): 1745047343
+
+Frame 9: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.235.135, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60000, Dst Port: 40041
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x52
+    Packet signature: 0x12345678
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Packet size: 0x0000
+    Checksum: 0x53
+
+Frame 10: 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.235.135, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60000, Dst Port: 40041
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x52
+    Packet signature: 0xf5446262
+    Sequence number: 0x0001
+    Fragment: 0x00
+    Packet size: 0x010b
+    Payload: 088644db19fe2d5005a2607d2a16f3b1fe56c9ba943ece1c…
+    Checksum: 0x30
+NEX
+    Decrypted PRUDP payload: 070100000a010100000001800000010001002f4f03686c00…
+    Big ass size: 0x00000107
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000001
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 010001002f4f03686c0000009d1d3837744584b278dacb72…
+        retval (uint32): 65537
+        pidPrincipal (uint32): 1745047343
+        pbufResponse length (Buffer): 108
+        pbufResponse data (Buffer): 9d1d3837744584b278dacb72b546f69b1c3313f6820dce4f…
+        RVConnectionData
+            Structure
+            m_urlRegularProtocols length (String): 75
+            m_urlRegularProtocols data (String): prudps:/address=34.211.9.199;port=60161;CID=1;PID=2;sid=1;stream=10;type=2
+            m_lstSpecialProtocols length (uint32): 0
+            m_urlSpecialProtocols length (String): 1
+            m_urlSpecialProtocols data (String): 
+        strReturnMsg length (String): 47
+        strReturnMsg data (String): branch:origin/project/nfs build:3_10_18_2006_0
+
+Frame 11: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x12345678
+    Sequence number: 0x0001
+    Fragment: 0x00
+    Checksum: 0x82
+
+Frame 12: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x12345678
+    Sequence number: 0x0001
+    Fragment: 0x00
+    Checksum: 0x82
+
+Frame 13: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x018f6bbd
+    Sequence number: 0x0003
+    Fragment: 0x00
+    Payload: a4078adaca0c767cc507d39b1b8adbecc3e73c559b
+    Checksum: 0xd2
+NEX
+    Decrypted PRUDP payload: 110000008a02000000030000002f4f036802000000
+    Big ass size: 0x00000011
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000002
+    .... .... .... .... .000 0000 0000 0011 = Method ID: 0x0003
+    Payload: 2f4f036802000000
+        idSource (uint32): 1745047343
+        idTarget (uint32): 2
+
+Frame 14: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x018f6bbd
+    Sequence number: 0x0003
+    Fragment: 0x00
+    Payload: a4078adaca0c767cc507d39b1b8adbecc3e73c559b
+    Checksum: 0xd2
+NEX
+    Decrypted PRUDP payload: 110000008a02000000030000002f4f036802000000
+    Big ass size: 0x00000011
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000002
+    .... .... .... .... .000 0000 0000 0011 = Method ID: 0x0003
+    Payload: 2f4f036802000000
+        idSource (uint32): 1745047343
+        idTarget (uint32): 2
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.235.135, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60000, Dst Port: 40041
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x52
+    Packet signature: 0x12345678
+    Sequence number: 0x0003
+    Fragment: 0x00
+    Packet size: 0x0000
+    Checksum: 0x54
+
+Frame 16: 187 bytes on wire (1496 bits), 187 bytes captured (1496 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.235.135, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60000, Dst Port: 40041
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x52
+    Packet signature: 0x7c35de9b
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Packet size: 0x0082
+    Payload: d8e63e59f40a42126ace4cf1fbcc206dea856636a061024f…
+    Checksum: 0x9e
+NEX
+    Decrypted PRUDP payload: 7e0000000a010200000003800000010001006c000000d204…
+    Big ass size: 0x0000007e
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000002
+    .... .... .... .... .000 0000 0000 0011 = Method ID: 0x0003
+    Payload: 010001006c000000d20431f5cf2f3bce5cafff4dc844616e…
+        retval (uint32): 65537
+        bufResponse length (Buffer): 108
+        bufResponse data (Buffer): d20431f5cf2f3bce5cafff4dc844616e1f3313f6820dce4f…
+
+Frame 17: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x12345678
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Checksum: 0x83
+
+Frame 18: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.235.135
+User Datagram Protocol, Src Port: 40041, Dst Port: 60000
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x03
+    Packet signature: 0x12345678
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Checksum: 0x83
+
+Frame 19: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x00
+    Packet signature: 0x00000000
+    Sequence number: 0x0000
+    Connection signature: 0x00000000
+    Checksum: 0x97
+
+Frame 20: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x00
+    Packet signature: 0x00000000
+    Sequence number: 0x0000
+    Connection signature: 0x00000000
+    Checksum: 0x97
+
+Frame 21: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Packet signature: 0x00000000
+    Sequence number: 0x0000
+    Connection signature: 0x7288238a
+    Packet size: 0x0000
+    Checksum: 0x90
+
+We got struct header len	0
+Frame 22: 162 bytes on wire (1296 bits), 162 bytes captured (1296 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0001
+    Connection signature: 0x3f242ff0
+    Payload: 44000000100000008d271dd04e6498fa00a319d25062ef0a…
+    Checksum: 0xf4
+
+Frame 23: 162 bytes on wire (1296 bits), 162 bytes captured (1296 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0001
+    Connection signature: 0x3f242ff0
+    Payload: 44000000100000008d271dd04e6498fa00a319d25062ef0a…
+    Checksum: 0xf4
+
+Frame 24: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x3f242ff0
+    Sequence number: 0x0001
+    Connection signature: 0x00000000
+    Packet size: 0x0008
+    Payload: 04000000d77aca5e
+    Checksum: 0x01
+
+Frame 25: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x3b221b6a
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Payload: 5adcd1b509b338f7c6641edd1352373cb99ed21725c15035…
+    Checksum: 0x51
+NEX
+    Decrypted PRUDP payload: 150100008b0300000004000000010000003b007072756470…
+    Big ass size: 0x00000115
+    .000 1011 = Protocol: 0x0b
+    Call ID: 0x00000003
+    .... .... .... .... .000 0000 0000 0100 = Method ID: 0x0004
+    Payload: 010000003b0070727564703a2f706f72743d34383436373b…
+        vecMyURLs length (uint32): 1
+            vecMyURLs length (String): 59
+            vecMyURLs data (String): prudp:/port=48467;natf=0;natm=0;pmp=0;sid=15;type=2;upnp=0
+
+Frame 26: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x3b221b6a
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Payload: 5adcd1b509b338f7c6641edd1352373cb99ed21725c15035…
+    Checksum: 0x51
+NEX
+    Decrypted PRUDP payload: 150100008b0300000004000000010000003b007072756470…
+    Big ass size: 0x00000115
+    .000 1011 = Protocol: 0x0b
+    Call ID: 0x00000003
+    .... .... .... .... .000 0000 0000 0100 = Method ID: 0x0004
+    Payload: 010000003b0070727564703a2f706f72743d34383436373b…
+        vecMyURLs length (uint32): 1
+            vecMyURLs length (String): 59
+            vecMyURLs data (String): prudp:/port=48467;natf=0;natm=0;pmp=0;sid=15;type=2;upnp=0
+
+Frame 27: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x12345678
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Packet size: 0x0000
+    Checksum: 0x0e
+
+Frame 28: 162 bytes on wire (1296 bits), 162 bytes captured (1296 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x9cbe3161
+    Sequence number: 0x0001
+    Fragment: 0x00
+    Packet size: 0x0069
+    Payload: 2addd1b589b13bf7c6601a5d1353363cb8a57662947f6545…
+    Checksum: 0xae
+NEX
+    Decrypted PRUDP payload: 650000000b01030000000480000001000100a405c3cb5100…
+    Big ass size: 0x00000065
+    .000 1011 = Protocol: 0x0b
+    Call ID: 0x00000003
+    .... .... .... .... .000 0000 0000 0100 = Method ID: 0x0004
+    Payload: 01000100a405c3cb510070727564703a2f61646472657373…
+
+Frame 29: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x12345678
+    Sequence number: 0x0001
+    Fragment: 0x00
+    Checksum: 0xf7
+
+Frame 30: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x12345678
+    Sequence number: 0x0001
+    Fragment: 0x00
+    Checksum: 0xf7
+
+Frame 31: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x213e5135
+    Sequence number: 0x0003
+    Fragment: 0x00
+    Payload: ca10ccafed15e8879c0b5176e4418c87bff56a218e8079c1…
+    Checksum: 0x2f
+NEX
+    Decrypted PRUDP payload: e1000000e604000000010000002f4f03680d00747261636b…
+    Big ass size: 0x000000e1
+    .110 0110 = Protocol: 0x66
+    Call ID: 0x00000004
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 2f4f03680d00747261636b62616c6c70696e00070044756d…
+        NNAInfo
+            PrincipalBasicInfo
+                Pid (uint32): 1745047343
+                NNID length (String): 13
+                NNID data (String): trackballpin
+                MiiV2
+                    Name length (String): 7
+                    Name data (String): Dummii
+                    Unknown (uint8): 0
+                    Unknown2 (uint8): 0
+                    Mii_data_FFLStoreData length (Buffer): 96
+                    Mii_data_FFLStoreData data (Buffer): 00000040327815c2c34592a2d8b7cfbec6ffeefb0cc10000…
+                    Unknown3 (uint64): 0
+                Unknown (uint8): 2
+            Unknown (uint8): 97
+            Unknown2 (uint8): 0
+        NintendoPresenceV2
+            Changed_flags (uint32): 1
+            Is_online (bool): True
+            GameKey
+                Title_id (uint64): 1407375153618176
+                Title_version (uint16): 272
+            Unknown_1 (uint8): 1
+            Message length (String): 1
+            Message data (String): 
+            Unknown_2 (uint32): 0
+            Unknown_3 (uint8): 0
+            Game_server_id (uint32): 0
+            Unknown_4 (uint32): 0
+            Pid (uint32): 0
+            Gathering_id (uint32): 0
+            Application_data length (Buffer): 20
+            Application_data data (Buffer): 0000000000000000000000000000000000000000
+            Unknown_5 (uint8): 3
+            Unknown_6 (uint8): 1
+            Unknown_7 (uint8): 3
+        Birthday (uint64): 133550964736
+
+Frame 32: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x213e5135
+    Sequence number: 0x0003
+    Fragment: 0x00
+    Payload: ca10ccafed15e8879c0b5176e4418c87bff56a218e8079c1…
+    Checksum: 0x2f
+NEX
+    Decrypted PRUDP payload: e1000000e604000000010000002f4f03680d00747261636b…
+    Big ass size: 0x000000e1
+    .110 0110 = Protocol: 0x66
+    Call ID: 0x00000004
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 2f4f03680d00747261636b62616c6c70696e00070044756d…
+        NNAInfo
+            PrincipalBasicInfo
+                Pid (uint32): 1745047343
+                NNID length (String): 13
+                NNID data (String): trackballpin
+                MiiV2
+                    Name length (String): 7
+                    Name data (String): Dummii
+                    Unknown (uint8): 0
+                    Unknown2 (uint8): 0
+                    Mii_data_FFLStoreData length (Buffer): 96
+                    Mii_data_FFLStoreData data (Buffer): 00000040327815c2c34592a2d8b7cfbec6ffeefb0cc10000…
+                    Unknown3 (uint64): 0
+                Unknown (uint8): 2
+            Unknown (uint8): 97
+            Unknown2 (uint8): 0
+        NintendoPresenceV2
+            Changed_flags (uint32): 1
+            Is_online (bool): True
+            GameKey
+                Title_id (uint64): 1407375153618176
+                Title_version (uint16): 272
+            Unknown_1 (uint8): 1
+            Message length (String): 1
+            Message data (String): 
+            Unknown_2 (uint32): 0
+            Unknown_3 (uint8): 0
+            Game_server_id (uint32): 0
+            Unknown_4 (uint32): 0
+            Pid (uint32): 0
+            Gathering_id (uint32): 0
+            Application_data length (Buffer): 20
+            Application_data data (Buffer): 0000000000000000000000000000000000000000
+            Unknown_5 (uint8): 3
+            Unknown_6 (uint8): 1
+            Unknown_7 (uint8): 3
+        Birthday (uint64): 133550964736
+
+Frame 33: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x12345678
+    Sequence number: 0x0003
+    Fragment: 0x00
+    Packet size: 0x0000
+    Checksum: 0x0f
+
+Frame 34: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x51e411cc
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Packet size: 0x0033
+    Payload: d1dbad2c10fa8e30beac6c6d4f6ffca06f04f7e0f768e27a…
+    Checksum: 0xa5
+NEX
+    Decrypted PRUDP payload: 2f0000006601040000000180000001010000010000000000…
+    Big ass size: 0x0000002f
+    .110 0110 = Protocol: 0x66
+    Call ID: 0x00000004
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 010100000100000000000000000000000000000000000000…
+        PrincipalPreference
+            Unknown (bool): True
+            Unknown2 (bool): True
+            Unknown3 (bool): False
+        Comment
+            Unknown (uint8): 0
+            Status_message length (String): 1
+            Status_message data (String): 
+            Last_changed_on (uint64): 0
+        Friend list length (uint32): 0
+        Sent friend requests length (uint32): 0
+        Received friend requests length (uint32): 0
+        Blacklist length (uint32): 0
+        Unknown (bool): False
+        Notifications length (uint32): 0
+        Unknown (bool): False
+
+Frame 35: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x12345678
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Checksum: 0xf8
+
+Frame 36: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x12345678
+    Sequence number: 0x0002
+    Fragment: 0x00
+    Checksum: 0xf8
+
+Frame 37: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1b
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Multi ack version: 0x00
+    Sequence number: 0x0000
+    Packet signature: eed991b891153e504dabfa46ae469a77
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04010000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 00000000000000000000000000000000
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 38: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1b
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Multi ack version: 0x00
+    Sequence number: 0x0000
+    Packet signature: eed991b891153e504dabfa46ae469a77
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04010000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 00000000000000000000000000000000
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 39: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1b
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Multi ack version: 0x00
+    Sequence number: 0x0000
+    Packet signature: 1fc22f59295bc67ddbf82984ae2c49ab
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: c68a27b156a15726fa69e95719993773
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 40: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1f
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: ffc01c9a8ce42973bc5574ec0ba66da0
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 54f076a09b235bbf7914a3a8fec12059
+        Option
+            Option id: 0x03
+            Option size: 0x02
+            Option bytes: 0a7a
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 41: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1f
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: ffc01c9a8ce42973bc5574ec0ba66da0
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 54f076a09b235bbf7914a3a8fec12059
+        Option
+            Option id: 0x03
+            Option size: 0x02
+            Option bytes: 0a7a
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 42: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1f
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0xc5
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 15c180d61b1d9a5eae4cbcef296374a1
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 00000000000000000000000000000000
+        Option
+            Option id: 0x03
+            Option size: 0x02
+            Option bytes: da0a
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 43: 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0xf9
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: c17c1c1fdf49cc870b2a82f080e94000
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: fa8744db99f92c5005a061fd2a1df280c862d3c5a3619128…
+    Defragmented payload: fa8744db99f92c5005a061fd2a1df280c862d3c5a3619128…
+NEX
+    Decrypted PRUDP payload: f50000008a06000000020000000b00313734353034373334…
+    Big ass size: 0x000000f5
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000006
+    .... .... .... .... .000 0000 0000 0010 = Method ID: 0x0002
+    Payload: 0b003137343530343733343300130041757468656e746963…
+        strUserName length (String): 11
+        strUserName data (String): 1745047343
+
+Frame 44: 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0xf9
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: c17c1c1fdf49cc870b2a82f080e94000
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: fa8744db99f92c5005a061fd2a1df280c862d3c5a3619128…
+    Defragmented payload: fa8744db99f92c5005a061fd2a1df280c862d3c5a3619128…
+NEX
+    Decrypted PRUDP payload: f50000008a06000000020000000b00313734353034373334…
+    Big ass size: 0x000000f5
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000006
+    .... .... .... .... .000 0000 0000 0010 = Method ID: 0x0002
+    Payload: 0b003137343530343733343300130041757468656e746963…
+        strUserName length (String): 11
+        strUserName data (String): 1745047343
+
+Frame 45: 390 bytes on wire (3120 bits), 390 bytes captured (3120 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x13b
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0xc5
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 0054d0b769b6407615c4885a1fcd5fc0
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 388644db19fe2a5005a2637d2a16f3b1fe56c9ba943e2e1c…
+    Defragmented payload: 388644db19fe2a5005a2637d2a16f3b1fe56c9ba943e2e1c…
+NEX
+    Decrypted PRUDP payload: 370100000a010600000002800000010001002f4f03688c00…
+    Big ass size: 0x00000137
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x00000006
+    .... .... .... .... .000 0000 0000 0010 = Method ID: 0x0002
+    Payload: 010001002f4f03688c000000621e6cd758f3c2e8d593ee01…
+        retval (uint32): 65537
+        pidPrincipal (uint32): 1745047343
+        pbufResponse length (Buffer): 140
+        pbufResponse data (Buffer): 621e6cd758f3c2e8d593ee017afed9cf001bd1f25ece06ae…
+        RVConnectionData
+            Structure
+            m_urlRegularProtocols length (String): 75
+            m_urlRegularProtocols data (String): prudps:/address=52.38.81.235;port=59921;CID=1;PID=2;sid=1;stream=10;type=2
+            m_lstSpecialProtocols length (uint32): 0
+            m_urlSpecialProtocols length (String): 1
+            m_urlSpecialProtocols data (String): 
+        strReturnMsg length (String): 50
+        strReturnMsg data (String): branch:origin/project/wup-ama build:3_8_27_3022_0
+
+Frame 46: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0xc5
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: ba91cf83599000320aa92772458113c2
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000200
+    Defragmented payload: 00000200
+
+Frame 47: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x4f
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 52b549bbe9c833cd1e49087ed81cfecc
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000100
+    Defragmented payload: 00000100
+
+Frame 48: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x4f
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 52b549bbe9c833cd1e49087ed81cfecc
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000100
+    Defragmented payload: 00000100
+
+Frame 49: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x15
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 7e8c7e4e9e8e640425c367182a0a4f33
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: c642dc842eb3f1229bc1bd573fe090fe615da6e63e
+    Defragmented payload: c642dc842eb3f1229bc1bd573fe090fe615da6e63e
+NEX
+    Decrypted PRUDP payload: 110000008a0b000000030000002f4f036802000000
+    Big ass size: 0x00000011
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x0000000b
+    .... .... .... .... .000 0000 0000 0011 = Method ID: 0x0003
+    Payload: 2f4f036802000000
+        idSource (uint32): 1745047343
+        idTarget (uint32): 2
+
+Frame 50: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x15
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 7e8c7e4e9e8e640425c367182a0a4f33
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: c642dc842eb3f1229bc1bd573fe090fe615da6e63e
+    Defragmented payload: c642dc842eb3f1229bc1bd573fe090fe615da6e63e
+NEX
+    Decrypted PRUDP payload: 110000008a0b000000030000002f4f036802000000
+    Big ass size: 0x00000011
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x0000000b
+    .... .... .... .... .000 0000 0000 0011 = Method ID: 0x0003
+    Payload: 2f4f036802000000
+        idSource (uint32): 1745047343
+        idTarget (uint32): 2
+
+Frame 51: 237 bytes on wire (1896 bits), 237 bytes captured (1896 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0xa2
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0xc5
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: e16061f407c76e2ffe350533afc9303a
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 9aead5d8ba111814641e8f40ca168fe2ebffa4d32ba58daa…
+    Defragmented payload: 9aead5d8ba111814641e8f40ca168fe2ebffa4d32ba58daa…
+NEX
+    Decrypted PRUDP payload: 9e0000000a010b00000003800000010001008c00000013e8…
+    Big ass size: 0x0000009e
+    .000 1010 = Protocol: 0x0a
+    Call ID: 0x0000000b
+    .... .... .... .... .000 0000 0000 0011 = Method ID: 0x0003
+    Payload: 010001008c00000013e87e19893ccbbae0f56f572a286082…
+        retval (uint32): 65537
+        bufResponse length (Buffer): 140
+        bufResponse data (Buffer): 13e87e19893ccbbae0f56f572a28608226530eea3e3cd0ae…
+
+Frame 52: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0xc5
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: e90666a3326cb57aecbec48bc3af1985
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000300
+    Defragmented payload: 00000200
+
+Frame 53: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1b
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Multi ack version: 0x00
+    Sequence number: 0x0000
+    Packet signature: eed991b891153e504dabfa46ae469a77
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04010000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 00000000000000000000000000000000
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 54: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1b
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Multi ack version: 0x00
+    Sequence number: 0x0000
+    Packet signature: eed991b891153e504dabfa46ae469a77
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04010000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 00000000000000000000000000000000
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+Frame 55: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x4f
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 9614db0d3de6624982d090ce4c2630b4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000200
+    Defragmented payload: 00000100
+
+Frame 56: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x4f
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 9614db0d3de6624982d090ce4c2630b4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000200
+    Defragmented payload: 00000100
+
+Frame 57: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1b
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0000 = Type: SYN (0x0)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x00
+    Multi ack version: 0x00
+    Sequence number: 0x0000
+    Packet signature: 690ee319c10c8605666157da4bf5aed0
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 69c25058f0db61cbb44abdb753ba7928
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+
+We got struct header len	5
+Frame 58: 223 bytes on wire (1784 bits), 223 bytes captured (1784 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1f
+    Payload size: 0x78
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 6827b48add8c1b78fe3b9204cd29de42
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: ed96dc2bc33ab26843cb8f844ab9f721
+        Option
+            Option id: 0x03
+            Option size: 0x02
+            Option bytes: 5ed8
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+    Payload: 5400000010000000b0c3110476a2a8142af8de3e8b2f8f5c…
+
+Frame 59: 223 bytes on wire (1784 bits), 223 bytes captured (1784 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1f
+    Payload size: 0x78
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 6827b48add8c1b78fe3b9204cd29de42
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: ed96dc2bc33ab26843cb8f844ab9f721
+        Option
+            Option id: 0x03
+            Option size: 0x02
+            Option bytes: 5ed8
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+    Payload: 5400000010000000b0c3110476a2a8142af8de3e8b2f8f5c…
+
+Frame 60: 111 bytes on wire (888 bits), 111 bytes captured (888 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x1f
+    Payload size: 0x08
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0001 = Type: CONNECT (0x1)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 3f35109f99cfdfe32a0e805eeed6f3f9
+    Options
+        Option
+            Option id: 0x00
+            Option size: 0x04
+            Supported functions: 04000000
+        Option
+            Option id: 0x01
+            Option size: 0x10
+            Connection signature: 00000000000000000000000000000000
+        Option
+            Option id: 0x03
+            Option size: 0x02
+            Option bytes: f816
+        Option
+            Option id: 0x04
+            Option size: 0x01
+            Option bytes: 00
+    Payload: 04000000f069fdfe
+
+Frame 61: 173 bytes on wire (1384 bits), 173 bytes captured (1384 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x62
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: 237a8d7f4318a2145f420a978d5f3813
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 6cadffc22d55ee7bdcd9b97fd2162f931f48f3a1266f5875…
+    Defragmented payload: 6cadffc22d55ee7bdcd9b97fd2162f931f48f3a1266f5875…
+NEX
+    Decrypted PRUDP payload: 5e0000008b0e00000001000000010000004f007072756470…
+    Big ass size: 0x0000005e
+    .000 1011 = Protocol: 0x0b
+    Call ID: 0x0000000e
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 010000004f0070727564703a2f616464726573733d313932…
+        vecMyURLs length (uint32): 1
+            vecMyURLs length (String): 79
+            vecMyURLs data (String): prudp:/address=192.168.0.100;port=57995;Pl=2;natf=0;natm=0;pmp=0;sid=15;upnp=0
+
+Frame 62: 173 bytes on wire (1384 bits), 173 bytes captured (1384 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x62
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: 237a8d7f4318a2145f420a978d5f3813
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 6cadffc22d55ee7bdcd9b97fd2162f931f48f3a1266f5875…
+    Defragmented payload: 6cadffc22d55ee7bdcd9b97fd2162f931f48f3a1266f5875…
+NEX
+    Decrypted PRUDP payload: 5e0000008b0e00000001000000010000004f007072756470…
+    Big ass size: 0x0000005e
+    .000 1011 = Protocol: 0x0b
+    Call ID: 0x0000000e
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 010000004f0070727564703a2f616464726573733d313932…
+        vecMyURLs length (uint32): 1
+            vecMyURLs length (String): 79
+            vecMyURLs data (String): prudp:/address=192.168.0.100;port=57995;Pl=2;natf=0;natm=0;pmp=0;sid=15;upnp=0
+
+Frame 63: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x45
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 0f2ae5ca8dd244769ea1302de6570333
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000200
+    Defragmented payload: 00000200
+
+Frame 64: 180 bytes on wire (1440 bits), 180 bytes captured (1440 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x69
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 3d7a3fc11cf0bda1f35d936bde84e335
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 57adffc2ad5ae07bdcd8b8ffd2172e931e07f1514e1b6d05…
+    Defragmented payload: 57adffc2ad5ae07bdcd8b8ffd2172e931e07f1514e1b6d05…
+NEX
+    Decrypted PRUDP payload: 650000000b010e000000018000000100010002801a015100…
+    Big ass size: 0x00000065
+    .000 1011 = Protocol: 0x0b
+    Call ID: 0x0000000e
+    .... .... .... .... .000 0000 0000 0001 = Method ID: 0x0001
+    Payload: 0100010002801a01510070727564703a2f61646472657373…
+        retval (uint32): 65537
+        pidConnectionID (uint32): 18513922
+        urlPublic length (String): 81
+        urlPublic data (String): prudp:/address=91.90.167.211;port=57995;natf=0;natm=0;pmp=0;sid=15;type=3;upnp=0
+
+Frame 65: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0011 = Type: DISCONNECT (0x3)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: dab82ea874e761539ff016c5fe5d1db7
+
+Frame 66: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.40.192.64
+User Datagram Protocol, Src Port: 57995, Dst Port: 59900
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0011 = Type: DISCONNECT (0x3)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x4f
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: dab82ea874e761539ff016c5fe5d1db7
+
+Frame 67: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: eeaebc3edd20d2ce035687ac85b1b8d6
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000100
+    Defragmented payload: 00000100
+
+Frame 68: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: eeaebc3edd20d2ce035687ac85b1b8d6
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000100
+    Defragmented payload: 00000100
+
+Frame 69: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0011 = Type: DISCONNECT (0x3)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0xc5
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: 050c050083f19fbc92625ee12459f3a2
+
+Frame 70: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0011 = Type: DISCONNECT (0x3)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0xc5
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: 050c050083f19fbc92625ee12459f3a2
+
+Frame 71: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.40.192.64, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59900, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0011 = Type: DISCONNECT (0x3)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0xc5
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: 050c050083f19fbc92625ee12459f3a2
+
+Frame 72: 121 bytes on wire (968 bits), 121 bytes captured (968 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x2e
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 6a1335000411342cb1efec05e357e26b
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 4abea4307ba74270cd48e6757b86872b26315711271da367…
+    Defragmented payload: 4abea4307ba74270cd48e6757b86872b26315711271da367…
+NEX
+    Decrypted PRUDP payload: 2a000000f31000000008000000001c000000000000000000…
+    Big ass size: 0x0000002a
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000010
+    .... .... .... .... .000 0000 0000 1000 = Method ID: 0x0008
+    Payload: 001c000000000000000000000000060000002f4f03680000…
+
+Frame 73: 121 bytes on wire (968 bits), 121 bytes captured (968 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x2e
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 6a1335000411342cb1efec05e357e26b
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 4abea4307ba74270cd48e6757b86872b26315711271da367…
+    Defragmented payload: 4abea4307ba74270cd48e6757b86872b26315711271da367…
+NEX
+    Decrypted PRUDP payload: 2a000000f31000000008000000001c000000000000000000…
+    Big ass size: 0x0000002a
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000010
+    .... .... .... .... .000 0000 0000 1000 = Method ID: 0x0008
+    Payload: 001c000000000000000000000000060000002f4f03680000…
+
+Frame 74: 386 bytes on wire (3088 bits), 386 bytes captured (3088 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x112
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: 2779db0e9d9a32c9bf7ae1d88537fa76
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 7ecc40e6067a969b2b2639d711271d5c67e7651645b9f18d…
+    Defragmented payload: 7ecc40e6067a969b2b2639d711271d5c67e7651645b9f18d…
+NEX
+    Decrypted PRUDP payload: 0e0100007301100000000880000000ff0000004f5be20300…
+    Big ass size: 0x0000010e
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000010
+    .... .... .... .... .000 0000 0000 1000 = Method ID: 0x0008
+    Payload: 00ff0000004f5be203000000002f4f0368000000000d0074…
+
+Frame 75: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 684bb3273da0d55e5b4f000505d06854
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000200
+    Defragmented payload: 00000100
+
+Frame 76: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 684bb3273da0d55e5b4f000505d06854
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000200
+    Defragmented payload: 00000100
+
+Frame 77: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x23
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: c7aee47d0bfdac320e2d820867144ed4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: c9c6b526a96692ed49681220d57140d29742ca87afbd9477…
+    Defragmented payload: c9c6b526a96692ed49681220d57140d29742ca87afbd9477…
+NEX
+    Decrypted PRUDP payload: 1f000000f31100000032000000001100000000a3e1110100…
+    Big ass size: 0x0000001f
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000011
+    .... .... .... .... .000 0000 0011 0010 = Method ID: 0x0032
+    Payload: 001100000000a3e111010000004f5be2030000000027
+
+Frame 78: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x23
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: c7aee47d0bfdac320e2d820867144ed4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: c9c6b526a96692ed49681220d57140d29742ca87afbd9477…
+    Defragmented payload: c9c6b526a96692ed49681220d57140d29742ca87afbd9477…
+NEX
+    Decrypted PRUDP payload: 1f000000f31100000032000000001100000000a3e1110100…
+    Big ass size: 0x0000001f
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000011
+    .... .... .... .... .000 0000 0011 0010 = Method ID: 0x0032
+    Payload: 001100000000a3e111010000004f5be2030000000027
+
+Frame 79: 653 bytes on wire (5224 bits), 653 bytes captured (5224 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x242
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 61202107670a2c7f80fa967be89d53f4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 36a410c26f7e3870def7cf4e9e99ee926248aa4a55ba2805…
+    Defragmented payload: 36a410c26f7e3870def7cf4e9e99ee926248aa4a55ba2805…
+NEX
+    Decrypted PRUDP payload: 3e0200007301110000003280000001000000002302000000…
+    Big ass size: 0x0000023e
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000011
+    .... .... .... .... .000 0000 0011 0010 = Method ID: 0x0032
+    Payload: 010000000023020000000000000000000000160200004f5b…
+
+Frame 80: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x45
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 6c1abe940df276a5d83d116e0ba9f70b
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000400
+    Defragmented payload: 00000200
+
+Frame 81: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: b86ea58b36192ea7e552349aa8fc2b0a
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000300
+    Defragmented payload: 00000100
+
+Frame 82: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: b86ea58b36192ea7e552349aa8fc2b0a
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000300
+    Defragmented payload: 00000100
+
+Frame 83: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0005
+    Packet signature: 36ac11138cef789b5a07b1e5d04a0bd8
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 8206bcb43c7ff94791f87cecd95e5673ae
+    Defragmented payload: 8206bcb43c7ff94791f87cecd95e5673ae
+NEX
+    Decrypted PRUDP payload: 0d000000f3120000003d00000000000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000012
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 00000000
+
+Frame 84: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0005
+    Packet signature: 36ac11138cef789b5a07b1e5d04a0bd8
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 8206bcb43c7ff94791f87cecd95e5673ae
+    Defragmented payload: 8206bcb43c7ff94791f87cecd95e5673ae
+NEX
+    Decrypted PRUDP payload: 0d000000f3120000003d00000000000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000012
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 00000000
+
+Frame 85: 290 bytes on wire (2320 bits), 290 bytes captured (2320 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0xb2
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: f7f5be41deeeca980b10119a0b2f7d86
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 3156952a1646e0d8a7bf6ac4631ad53cb297b050902b7fe6…
+    Defragmented payload: 3156952a1646e0d8a7bf6ac4631ad53cb297b050902b7fe6…
+NEX
+    Decrypted PRUDP payload: ae0000007301120000003d80000028000000010000003200…
+    Big ass size: 0x000000ae
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000012
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 280000000100000032000000960000002c010000f4010000…
+
+Frame 86: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 355ba69ed8feaa928afea7f578e166ec
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000400
+    Defragmented payload: 00000100
+
+Frame 87: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 355ba69ed8feaa928afea7f578e166ec
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000400
+    Defragmented payload: 00000100
+
+Frame 88: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0006
+    Packet signature: e17b3ae130ac289c6ffebe04c2784c91
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f4adc1aae6d2a37174fd124438d39b8e5f
+    Defragmented payload: f4adc1aae6d2a37174fd124438d39b8e5f
+NEX
+    Decrypted PRUDP payload: 0d000000f3130000003d00000001000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000013
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 01000000
+
+Frame 89: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0006
+    Packet signature: e17b3ae130ac289c6ffebe04c2784c91
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f4adc1aae6d2a37174fd124438d39b8e5f
+    Defragmented payload: f4adc1aae6d2a37174fd124438d39b8e5f
+NEX
+    Decrypted PRUDP payload: 0d000000f3130000003d00000001000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000013
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 01000000
+
+Frame 90: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x36
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0005
+    Packet signature: 0554713db929b87f43d93fb24240a1cc
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: bbe78047e55fb93d46924bd7dd18bdedd8907771dfd32b51…
+    Defragmented payload: bbe78047e55fb93d46924bd7dd18bdedd8907771dfd32b51…
+NEX
+    Decrypted PRUDP payload: 320000007301130000003d800000090000000200000070cc…
+    Big ass size: 0x00000032
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000013
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 090000000200000070cc826950cc826938cc8269dbd08269…
+
+Frame 91: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 436c0e232b35af8a6da69a74182a682a
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000500
+    Defragmented payload: 00000100
+
+Frame 92: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 436c0e232b35af8a6da69a74182a682a
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000500
+    Defragmented payload: 00000100
+
+Frame 93: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0007
+    Packet signature: 2b2c6f143888f427341c1b0b53a5fd44
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: bdc8720094663074727284bd9327f7d4de
+    Defragmented payload: bdc8720094663074727284bd9327f7d4de
+NEX
+    Decrypted PRUDP payload: 0d000000f3140000003d00000002000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000014
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 02000000
+
+Frame 94: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0007
+    Packet signature: 2b2c6f143888f427341c1b0b53a5fd44
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: bdc8720094663074727284bd9327f7d4de
+    Defragmented payload: bdc8720094663074727284bd9327f7d4de
+NEX
+    Decrypted PRUDP payload: 0d000000f3140000003d00000002000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000014
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 02000000
+
+Frame 95: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x26
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0006
+    Packet signature: ee8bef2f62ce74fa79f61c8416610103
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 50923ce03c58fc780e10cc46521f447be0f3a830f31f08ac…
+    Defragmented payload: 50923ce03c58fc780e10cc46521f447be0f3a830f31f08ac…
+NEX
+    Decrypted PRUDP payload: 220000007301140000003d80000005000000df0700000c00…
+    Big ass size: 0x00000022
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000014
+    .... .... .... .... .000 0000 0011 1101 = Method ID: 0x003d
+    Payload: 05000000df0700000c000000160000000500000000000000
+
+Frame 96: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x45
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 3b5b16c78c429ed5fe5ecdbc12b5f3c7
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000700
+    Defragmented payload: 00000200
+
+Frame 97: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 4230857a455b578c1992acf0184b4145
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000600
+    Defragmented payload: 00000100
+
+Frame 98: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 4230857a455b578c1992acf0184b4145
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000600
+    Defragmented payload: 00000100
+
+Frame 99: 232 bytes on wire (1856 bits), 232 bytes captured (1856 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x9d
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0008
+    Packet signature: cfe22dc7e51ae7cfe3e745b72c801743
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 6dfbae038be37b1df85a732750fc46af65f2d0d2ba5aa51e…
+    Defragmented payload: 6dfbae038be37b1df85a732750fc46af65f2d0d2ba5aa51e…
+NEX
+    Decrypted PRUDP payload: 99000000f31500000041000000014d00000001010000002f…
+    Big ass size: 0x00000099
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000015
+    .... .... .... .... .000 0000 0100 0001 = Method ID: 0x0041
+    Payload: 014d00000001010000002f4f03680000000000fffffb7e3f…
+
+Frame 100: 232 bytes on wire (1856 bits), 232 bytes captured (1856 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x9d
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0008
+    Packet signature: cfe22dc7e51ae7cfe3e745b72c801743
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 6dfbae038be37b1df85a732750fc46af65f2d0d2ba5aa51e…
+    Defragmented payload: 6dfbae038be37b1df85a732750fc46af65f2d0d2ba5aa51e…
+NEX
+    Decrypted PRUDP payload: 99000000f31500000041000000014d00000001010000002f…
+    Big ass size: 0x00000099
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000015
+    .... .... .... .... .000 0000 0100 0001 = Method ID: 0x0041
+    Payload: 014d00000001010000002f4f03680000000000fffffb7e3f…
+
+Frame 101: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x12
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0007
+    Packet signature: 52fa051fd54488fac88b8ef3eb99f948
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 27e5c224168df427fd5bd5ffc78b60034467
+    Defragmented payload: 27e5c224168df427fd5bd5ffc78b60034467
+NEX
+    Decrypted PRUDP payload: 0e0000007301150000004180000000000000
+    Big ass size: 0x0000000e
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000015
+    .... .... .... .... .000 0000 0100 0001 = Method ID: 0x0041
+    Payload: 00000000
+
+Frame 102: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x45
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 24bfc5fa0be1c777e60ebd69b608eacf
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000800
+    Defragmented payload: 00000200
+
+Frame 103: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 071a19e6d6529496d5735912a14b3984
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000700
+    Defragmented payload: 00000100
+
+Frame 104: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 071a19e6d6529496d5735912a14b3984
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000700
+    Defragmented payload: 00000100
+
+Frame 105: 121 bytes on wire (968 bits), 121 bytes captured (968 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x2e
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0009
+    Packet signature: 909d71aa943d875aed82d9e24319f01d
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f4f7fdce6d8fef926240aa6957ba34058a199127f051da93…
+    Defragmented payload: f4f7fdce6d8fef926240aa6957ba34058a199127f051da93…
+NEX
+    Decrypted PRUDP payload: 2a000000f31600000008000000001c000000000000000000…
+    Big ass size: 0x0000002a
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000016
+    .... .... .... .... .000 0000 0000 1000 = Method ID: 0x0008
+    Payload: 001c000000000000000000000000060000002f4f03680000…
+
+Frame 106: 121 bytes on wire (968 bits), 121 bytes captured (968 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x2e
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0009
+    Packet signature: 909d71aa943d875aed82d9e24319f01d
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f4f7fdce6d8fef926240aa6957ba34058a199127f051da93…
+    Defragmented payload: f4f7fdce6d8fef926240aa6957ba34058a199127f051da93…
+NEX
+    Decrypted PRUDP payload: 2a000000f31600000008000000001c000000000000000000…
+    Big ass size: 0x0000002a
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000016
+    .... .... .... .... .000 0000 0000 1000 = Method ID: 0x0008
+    Payload: 001c000000000000000000000000060000002f4f03680000…
+
+Frame 107: 628 bytes on wire (5024 bits), 628 bytes captured (5024 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x229
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0008
+    Packet signature: 6ce918dbf6fff9c73686c4b68729cd1d
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f5b1402a4fa77da5e154d8a91be5030a77e559a49dc82991…
+    Defragmented payload: f5b1402a4fa77da5e154d8a91be5030a77e559a49dc82991…
+NEX
+    Decrypted PRUDP payload: 250200007301160000000880000000160200004f5be20300…
+    Big ass size: 0x00000225
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000016
+    .... .... .... .... .000 0000 0000 1000 = Method ID: 0x0008
+    Payload: 00160200004f5be203000000002f4f0368000000000d0074…
+
+Frame 108: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x45
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 803739e5e190a749cfa944ae609e2462
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000900
+    Defragmented payload: 00000200
+
+Frame 109: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: b413aff4d6bd8ec986276ea57a226752
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000800
+    Defragmented payload: 00000100
+
+Frame 110: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: b413aff4d6bd8ec986276ea57a226752
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000800
+    Defragmented payload: 00000100
+
+Frame 111: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x23
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000a
+    Packet signature: a4847ce812b9605037d70061b8b40f3f
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00b3bc28533f4ee858dfac87b391c62f962b3dc1967b2a4d…
+    Defragmented payload: 00b3bc28533f4ee858dfac87b391c62f962b3dc1967b2a4d…
+NEX
+    Decrypted PRUDP payload: 1f000000f31700000032000000001100000000a3e1110100…
+    Big ass size: 0x0000001f
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000017
+    .... .... .... .... .000 0000 0011 0010 = Method ID: 0x0032
+    Payload: 001100000000a3e111010000004f5be2030000000027
+
+Frame 112: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x23
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000a
+    Packet signature: a4847ce812b9605037d70061b8b40f3f
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00b3bc28533f4ee858dfac87b391c62f962b3dc1967b2a4d…
+    Defragmented payload: 00b3bc28533f4ee858dfac87b391c62f962b3dc1967b2a4d…
+NEX
+    Decrypted PRUDP payload: 1f000000f31700000032000000001100000000a3e1110100…
+    Big ass size: 0x0000001f
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000017
+    .... .... .... .... .000 0000 0011 0010 = Method ID: 0x0032
+    Payload: 001100000000a3e111010000004f5be2030000000027
+
+Frame 113: 690 bytes on wire (5520 bits), 690 bytes captured (5520 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x242
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0009
+    Packet signature: e8cd45df51b0c014daaaeb98a770a370
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 2618f014a9e1e588cd5fa697166ddde5047f8da2a42b681c…
+    Defragmented payload: 2618f014a9e1e588cd5fa697166ddde5047f8da2a42b681c…
+NEX
+    Decrypted PRUDP payload: 3e0200007301170000003280000001000000002302000000…
+    Big ass size: 0x0000023e
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000017
+    .... .... .... .... .000 0000 0011 0010 = Method ID: 0x0032
+    Payload: 010000000023020000000000000000000000160200004f5b…
+
+Frame 114: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: b26d6398582f9095a44f351cd6791a96
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000900
+    Defragmented payload: 00000100
+
+Frame 115: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: b26d6398582f9095a44f351cd6791a96
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000900
+    Defragmented payload: 00000100
+
+Frame 116: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000b
+    Packet signature: da2342ebf9bf84f45dbe10837c283789
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: b357b4aef22a9d9ad20bb61141039d5466
+    Defragmented payload: b357b4aef22a9d9ad20bb61141039d5466
+NEX
+    Decrypted PRUDP payload: 0d000000f3180000004a00000080000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000018
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 80000000
+
+Frame 117: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000b
+    Packet signature: da2342ebf9bf84f45dbe10837c283789
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: b357b4aef22a9d9ad20bb61141039d5466
+    Defragmented payload: b357b4aef22a9d9ad20bb61141039d5466
+NEX
+    Decrypted PRUDP payload: 0d000000f3180000004a00000080000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000018
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 80000000
+
+Frame 118: 905 bytes on wire (7240 bits), 905 bytes captured (7240 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x33e
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x000a
+    Packet signature: 58f4c26978e77335a27b4f5c9aa5cd1e
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 3150e632297608a7ab509bba55a565ae1d0b483212212a7b…
+    Defragmented payload: 3150e632297608a7ab509bba55a565ae1d0b483212212a7b…
+NEX
+    Decrypted PRUDP payload: 3a0300007301180000004a800000420000000a00e38191e3…
+    Big ass size: 0x0000033a
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000018
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 420000000a00e38191e38195e3828c000a00e6b688e38195…
+
+Frame 119: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x45
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 39ca974e044abd702526bc9b81706d9d
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000b00
+    Defragmented payload: 00000200
+
+Frame 120: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 9bccd23c6caa06e249feeee9d760cac4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000a00
+    Defragmented payload: 00000100
+
+Frame 121: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 9bccd23c6caa06e249feeee9d760cac4
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000a00
+    Defragmented payload: 00000100
+
+Frame 122: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000c
+    Packet signature: ec53b10c3f3a36ccda291be21f587562
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f5e9c547b6093ce66ca3c3be559c8075fa
+    Defragmented payload: f5e9c547b6093ce66ca3c3be559c8075fa
+NEX
+    Decrypted PRUDP payload: 0d000000f3190000004a00000081000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000019
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 81000000
+
+Frame 123: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000c
+    Packet signature: ec53b10c3f3a36ccda291be21f587562
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: f5e9c547b6093ce66ca3c3be559c8075fa
+    Defragmented payload: f5e9c547b6093ce66ca3c3be559c8075fa
+NEX
+    Decrypted PRUDP payload: 0d000000f3190000004a00000081000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000019
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 81000000
+
+Frame 124: 221 bytes on wire (1768 bits), 221 bytes captured (1768 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x6d
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x000b
+    Packet signature: 741fd3af82879a16c7b5560fb75c046c
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 828059a51f23ba35c9ceb7b83b723a8c31e16587d591d6dd…
+    Defragmented payload: 828059a51f23ba35c9ceb7b83b723a8c31e16587d591d6dd…
+NEX
+    Decrypted PRUDP payload: 690000007301190000004a800000070000000d00e382bce3…
+    Big ass size: 0x00000069
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x00000019
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 070000000d00e382bce383ade3818be38289000a00efbc90…
+
+Frame 125: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 95172d1446abee260626cdd54728a1f9
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000b00
+    Defragmented payload: 00000100
+
+Frame 126: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 95172d1446abee260626cdd54728a1f9
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000b00
+    Defragmented payload: 00000100
+
+Frame 127: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000d
+    Packet signature: 14be3e521a511e92c4596ea9b7518c8d
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 6a29e6fdd522e711c8c228ed9c613c088e
+    Defragmented payload: 6a29e6fdd522e711c8c228ed9c613c088e
+NEX
+    Decrypted PRUDP payload: 0d000000f31a0000004a00000082000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x0000001a
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 82000000
+
+Frame 128: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x11
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x000d
+    Packet signature: 14be3e521a511e92c4596ea9b7518c8d
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 6a29e6fdd522e711c8c228ed9c613c088e
+    Defragmented payload: 6a29e6fdd522e711c8c228ed9c613c088e
+NEX
+    Decrypted PRUDP payload: 0d000000f31a0000004a00000082000000
+    Big ass size: 0x0000000d
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x0000001a
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 82000000
+
+Frame 129: 898 bytes on wire (7184 bits), 898 bytes captured (7184 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x312
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x000c
+    Packet signature: 38ae772a834379b8c319ff96980b7de7
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: e6465f550aeadd58238e3e20a85bfa6bea3bce2e590790dc…
+    Defragmented payload: e6465f550aeadd58238e3e20a85bfa6bea3bce2e590790dc…
+NEX
+    Decrypted PRUDP payload: 0e03000073011a0000004a8000003a0000000a00e38184e3…
+    Big ass size: 0x0000030e
+    .111 0011 = Protocol: 0x73
+    Call ID: 0x0000001a
+    .... .... .... .... .000 0000 0100 1010 = Method ID: 0x004a
+    Payload: 3a0000000a00e38184e38184e381ad000a00e4b88be38195…
+
+Frame 130: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 2608d7af887713cdcc558040044fd426
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000c00
+    Defragmented payload: 00000100
+
+Frame 131: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x03
+    Payload size: 0x04
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0010 = Type: DATA (0x2)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: True
+    Session: 0x50
+    Multi ack version: 0x01
+    Sequence number: 0x0000
+    Packet signature: 2608d7af887713cdcc558040044fd426
+    Options
+        Option
+            Option id: 0x02
+            Option size: 0x01
+            Fragment: 0
+    Payload: 00000c00
+    Defragmented payload: 00000100
+
+Frame 132: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0004
+    Checksum: 0xdf
+
+Frame 133: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0004
+    Checksum: 0xdf
+
+Frame 134: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x3f242ff0
+    Sequence number: 0x0004
+    Packet size: 0x0000
+    Checksum: 0x80
+
+Frame 135: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 823e9738f5c0d3e4f2a7675e9e63f2be
+
+Frame 136: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 823e9738f5c0d3e4f2a7675e9e63f2be
+
+Frame 137: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0001
+    Packet signature: 0c3a772647677985c0d2608ab1cddf9f
+
+Frame 138: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: 3d5a2d8243a287ecc9e4a7c2fc8981ab
+
+Frame 139: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: 3d5a2d8243a287ecc9e4a7c2fc8981ab
+
+Frame 140: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0002
+    Packet signature: 6d32472458dcf7b1789671eefc565de3
+
+Frame 141: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 33fc1eccf839144ed7058b363bafa4cd
+
+Frame 142: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 33fc1eccf839144ed7058b363bafa4cd
+
+Frame 143: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0003
+    Packet signature: 8f9395277e6a951490d470d3de59454b
+
+Frame 144: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0005
+    Checksum: 0xe0
+
+Frame 145: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0005
+    Checksum: 0xe0
+
+Frame 146: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x3f242ff0
+    Sequence number: 0x0005
+    Packet size: 0x0000
+    Checksum: 0x81
+
+Frame 147: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: 3a4f47b896a3a66a77b275411ab3dedf
+
+Frame 148: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: 3a4f47b896a3a66a77b275411ab3dedf
+
+Frame 149: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0004
+    Packet signature: 216c344bc33838bfc7fa6199af818654
+
+Frame 150: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0005
+    Packet signature: d3438fad66439a70b6e7499b250af0bf
+
+Frame 151: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0005
+    Packet signature: d3438fad66439a70b6e7499b250af0bf
+
+Frame 152: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0005
+    Packet signature: 7507b9398ab103282afdf2208ca86478
+
+Frame 153: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0006
+    Packet signature: b86ce79fc22fea96d1ce45c03b4d0f36
+
+Frame 154: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0006
+    Packet signature: b86ce79fc22fea96d1ce45c03b4d0f36
+
+Frame 155: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0006
+    Packet signature: 0e40262d2968bcfde16f47d6c2e9ed7f
+
+Frame 156: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0007
+    Packet signature: 7447e7c480bbb4cab7564e8d4852a627
+
+Frame 157: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0007
+    Packet signature: 7447e7c480bbb4cab7564e8d4852a627
+
+Frame 158: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0007
+    Packet signature: 4727b838411602077d6ca16b85fefe9b
+
+Frame 159: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0006
+    Checksum: 0xe1
+
+Frame 160: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 34.211.9.199
+User Datagram Protocol, Src Port: 48467, Dst Port: 60161
+PRUDP v0
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: True
+        .. = Need ack: True
+        .. = Has size: False
+        .. = Multi ack: False
+    Session: 0x77
+    Packet signature: 0x7288238a
+    Sequence number: 0x0006
+    Checksum: 0xe1
+
+Frame 161: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 34.211.9.199, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 60161, Dst Port: 48467
+PRUDP v0
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x0e
+    Packet signature: 0x3f242ff0
+    Sequence number: 0x0006
+    Packet size: 0x0000
+    Checksum: 0x82
+
+Frame 162: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0008
+    Packet signature: ba6f86f55604b5f1bc1c7e740d990b9f
+
+Frame 163: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82), Dst: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 52.38.81.235
+User Datagram Protocol, Src Port: 57995, Dst Port: 59921
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Client (0xaf)
+    Destination: Server (0xa1)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: False
+        .. = Reliable: False
+        .. = Need ack: True
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x50
+    Multi ack version: 0x00
+    Sequence number: 0x0008
+    Packet signature: ba6f86f55604b5f1bc1c7e740d990b9f
+
+Frame 164: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: NetcoreT_12:f3:85 (e4:be:ed:12:f3:85), Dst: Micro-St_f4:bb:82 (d4:3d:7e:f4:bb:82)
+Internet Protocol Version 4, Src: 52.38.81.235, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 59921, Dst Port: 57995
+PRUDP v1
+    Magic: 0xead0
+    Version: 0x01
+    Packet-specific data size: 0x00
+    Payload size: 0x00
+    Source: Server (0xa1)
+    Destination: Client (0xaf)
+    .... .... .... 0100 = Type: PING (0x4)
+    Flags
+        .. = Ack: True
+        .. = Reliable: False
+        .. = Need ack: False
+        .. = Has size: True
+        .. = Multi ack: False
+    Session: 0x45
+    Multi ack version: 0x00
+    Sequence number: 0x0008
+    Packet signature: 6be5c3b802617b5b6bbafc0be2ce9b11
+
