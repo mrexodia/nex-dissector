@@ -271,6 +271,9 @@ function prudp_v1_proto.dissector(buf,pinfo,tree)
 	if pkt.session ~= nil then
 		info = info .. " SESSION " .. string.format("0x%02x", pkt.session)
 	end
+	if pkt.seq ~= nil and pkt.seq ~= 0 then
+		info = info .. " SEQUENCE " .. string.format("0x%04x", pkt.seq)
+	end
 	if pkt.flags.reliable then
 		info = info .. " RELIABLE"
 	end

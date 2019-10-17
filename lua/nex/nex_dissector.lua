@@ -415,7 +415,7 @@ function nex_proto.dissector(buf, pinfo, tree)
 		end
 	end
 
-	pinfo.cols.info = "NEX " .. info
+	-- pinfo.cols.info = "NEX " .. info
 end
 
 udp_table = DissectorTable.get("udp.port")
